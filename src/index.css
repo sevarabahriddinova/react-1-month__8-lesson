@@ -27,3 +27,24 @@ body{
     background-image:url("./images/car.png");
     height: 500px;
 }
+.car__img{
+    position: relative;
+    z-index: 1;
+}
+.hero__card{
+    position: absolute;
+    z-index: 3;
+    top: 230px;
+    left: 120px;
+}
+.hero__card2{
+    position: absolute;
+    z-index: 3;
+    top: 230px;
+    right:430px;
+}
+.flex-1{
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border-radius: 20px;
+}
+
